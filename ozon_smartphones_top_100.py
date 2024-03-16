@@ -145,7 +145,6 @@ if __name__ == '__main__':
     open_link(driver)
     open_category(driver)
     apply_filter_high_rate(driver)
-    go_to_next_page(driver, 4)
     print(process(driver))
     driver.close()
     driver.quit()
